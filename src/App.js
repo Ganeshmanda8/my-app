@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import MyFormComponent from './components/form/form';
+import HrComponent from './components/extra/hr';
+import TextComponent from './components/text/text';
+import TeamsComponent from './components/list/list';
+import ImageComponent from './components/image/image';
+import TableDataComponent from './components/table/table';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div>
+            <MyFormComponent />
+            <HrComponent />
+            <TextComponent />
+            <HrComponent />
+            <ImageComponent />
+            <HrComponent />
+            <TeamsComponent />            
+            <HrComponent />
+            <TableDataComponent />
+        </div>
+    );
 }
 
 export default App;
