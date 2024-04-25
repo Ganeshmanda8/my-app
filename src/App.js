@@ -5,8 +5,12 @@ import React from 'react';
 // import TeamsComponent from './components/list/list';
 // import ImageComponent from './components/image/image';
 // import TableDataComponent from './components/table/table';
-import ListComponents from './components/list/list_components';
-import OrderList from './components/list/ordered-list';
+// import ListComponents from './components/list/list_components';
+// import OrderList from './components/list/ordered-list';
+// import ButtonComponent from './components/button/button';
+// import ListItems from './components/list/listItems';
+import Ipltask from './components/list/task_23-04';
+
 function App() {
     return (
         <div>
@@ -19,8 +23,11 @@ function App() {
             <TeamsComponent />            
             <HrComponent />
             <TableDataComponent /> */}
-            <ListComponents/>
-            <OrderList/>
+            {/* <ListComponents/>
+            <OrderList/> */}
+            {/* <ButtonComponent/> */}
+            {/* <ListItems/> */}
+            <Ipltask/>
         </div>
     );
 }
