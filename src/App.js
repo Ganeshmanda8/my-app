@@ -1,33 +1,19 @@
 import React from 'react';
-// import MyFormComponent from './components/form/form';
-// import HrComponent from './components/extra/hr';
-// import TextComponent from './components/text/text';
-// import TeamsComponent from './components/list/list';
-// import ImageComponent from './components/image/image';
-// import TableDataComponent from './components/table/table';
-// import ListComponents from './components/list/list_components';
-// import OrderList from './components/list/ordered-list';
-// import ButtonComponent from './components/button/button';
 // import ListItems from './components/list/listItems';
-import Ipltask from './components/list/task_23-04';
+// import Ipltask from './components/list/task_23-04';
+// import IplTeamListing from './components/list/ipl-listing';
+// import Heading1,{Heading2,Heading3} from './components/heading/heading';
+// import Manda,{Heading2,Heading3} from './components/heading/heading';
+import Task24 from './components/list/task_24-04';
 
 function App() {
     return (
         <div>
-            {/* <MyFormComponent />
-            <HrComponent />
-            <TextComponent />
-            <HrComponent />
-            <ImageComponent />
-            <HrComponent />
-            <TeamsComponent />            
-            <HrComponent />
-            <TableDataComponent /> */}
-            {/* <ListComponents/>
-            <OrderList/> */}
-            {/* <ButtonComponent/> */}
-            {/* <ListItems/> */}
-            <Ipltask/>
+            {/* <IplTeamListing/> */}
+            {/* <Manda/>
+            <Heading2/>
+            <Heading3/> */}
+            <Task24/>
         </div>
     );
 }
