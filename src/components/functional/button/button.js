@@ -1,4 +1,4 @@
-// import ListItems from '../list/listItems';
+// import ListItems from './components/functional/list/listItems'
 
 // function ButtonComponent(){
 //     return(
