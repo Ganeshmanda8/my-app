@@ -1,12 +1,14 @@
 import React from 'react';
-import Counter from './components/class/counter/counter';
-import ProductManager from './components/class/task/task_02_05';
+import ToDoComponent from './components/class/todo/todo';
+import TodoObjects from './components/class/todo/todo_using_obj';
 
 function App() {
     return (
         <>
-        <Counter/>
-        <ProductManager/>
+        <ToDoComponent/>
+        <br/>
+        <br/>
+        <TodoObjects/>
         </>
     );
 }
