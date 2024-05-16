@@ -1,14 +1,12 @@
 import React from 'react';
-import ToDoComponent from './components/class/todo/todo';
-import TodoObjects from './components/class/todo/todo_using_obj';
+// import MountingComponent from './components/class/mounting/mounting';
+import MountingComponent1 from './components/class/task/task_06_05';
 
 function App() {
     return (
         <>
-        <ToDoComponent/>
-        <br/>
-        <br/>
-        <TodoObjects/>
+        {/* <MountingComponent color="green"/> */}
+        <MountingComponent1 color="orange"/>
         </>
     );
 }
