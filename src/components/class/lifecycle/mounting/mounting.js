@@ -1,6 +1,6 @@
 import { Component } from 'react'
-import CircleSpinner from '../../functional/Spinners/circle-spinner';
-import Card from '../../functional/card/card';
+import CircleSpinner from '../../../functional/Spinners/circle-spinner';
+import Card from '../../../functional/card/card';
 import axios from 'axios';
 
 class MountingComponent extends Component {
